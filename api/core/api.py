@@ -18,3 +18,4 @@ def helloworld(request):
 
 
 api.register_controllers(NinjaJWTDefaultController)
+api.add_router("/waitlist", "waitlist.api.router", tags=["waitlist"])
